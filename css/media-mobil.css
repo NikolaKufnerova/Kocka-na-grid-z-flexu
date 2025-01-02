@@ -1,0 +1,25 @@
+/* small - mobile/tablet */
+.main{
+  margin: 0.5em;
+}
+.img-responsive{
+  width: 100%;
+  max-width: 900px;
+}
+
+.hp-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.link {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+}
+
+.link__label{
+  justify-self: center;
+  align-self: end;
+}
